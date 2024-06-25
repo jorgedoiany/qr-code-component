@@ -1,0 +1,41 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgrey;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container img {
+  width: 288px;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-size: 22px;
+  width: 288px;
+  color: #1f314f;
+  margin-top: 24px;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 15px;
+  max-width: 256px;
+  color: #7d889e;
+  font-weight: 200;
+  margin-bottom: 16px;
+}
