@@ -1,10 +1,10 @@
 body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: lightgrey;
   font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
@@ -29,13 +29,16 @@ body {
   width: 288px;
   color: #1f314f;
   margin-top: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .container p {
   font-size: 15px;
   max-width: 256px;
   color: #7d889e;
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 16px;
+}
+
+@media screen and (max-width: 375px) {
 }
